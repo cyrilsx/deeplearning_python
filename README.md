@@ -18,7 +18,8 @@ Right now, you are in a lightweight python environment. We can install our noteb
 
 ```bash
 (deep_learning)$ pip install jupyterlab
-(deep_learning)$ pip install tensorflow 
+(deep_learning)$ pip install tensorflow
+(deep_learning)$ pip install matplotlib
 ```
 
 To start Jupyter lab in order to create notebooks, just launch `jupyter lab` in the command line and go to [http://localhost:8888](http://localhost:8888/lab/) with the specified token.
