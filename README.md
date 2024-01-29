@@ -8,7 +8,7 @@ Google provides Colab that allows to start right away: https://colab.research.go
 Else, you can also install Jupyter notebooks on your machine. Be sure to [python3](https://www.python.org/) installed.
 I personally used [venv](https://docs.python.org/3/library/venv.html) to have a better control of the installed package.
 
-````bash
+```bash
 $ apt install python3.10-venv
 $ mkdir -p $where_you_want/deep_learning
 $ source $where_you_want/deep_learning/bin/activate
@@ -16,7 +16,7 @@ $ source $where_you_want/deep_learning/bin/activate
 
 Right now, you are in a lightweight python environment. We can install our notebook and others dependencies required to play with deeplearning.
 
-````bash
+```bash
 (deep_learning)$ pip install jupyterlab
 (deep_learning)$ pip install tensorflow 
 ```
